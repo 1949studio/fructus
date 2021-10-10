@@ -23,6 +23,7 @@
 		0502CEAF27126D71007C1A23 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEAD27126D71007C1A23 /* OnboardingView.swift */; };
 		0502CEB627127EF2007C1A23 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEB427127EF2007C1A23 /* SettingsView.swift */; };
 		0502CEB727127EF2007C1A23 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEB527127EF2007C1A23 /* SettingsLabelView.swift */; };
+		0502CEB92712899A007C1A23 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEB82712899A007C1A23 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0502CEAD27126D71007C1A23 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0502CEB427127EF2007C1A23 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0502CEB527127EF2007C1A23 /* SettingsLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		0502CEB82712899A007C1A23 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0502CEA527126D14007C1A23 /* FruitRowView.swift */,
 				0502CEAA27126D5B007C1A23 /* FruitNutrientsView.swift */,
 				0502CEA427126D14007C1A23 /* SourceLinkView.swift */,
+				0502CEB82712899A007C1A23 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				0502CE76271197AF007C1A23 /* FruitCardView.swift in Sources */,
 				0502CE7827119CA8007C1A23 /* StartButtonView.swift in Sources */,
+				0502CEB92712899A007C1A23 /* SettingsRowView.swift in Sources */,
 				0502CEA727126D14007C1A23 /* SourceLinkView.swift in Sources */,
 				0502CEAF27126D71007C1A23 /* OnboardingView.swift in Sources */,
 				0502CEA827126D14007C1A23 /* FruitRowView.swift in Sources */,
