@@ -11,7 +11,7 @@ struct ContentView: View {
     // MARK: - PROPERTIES
     
     var fruits: [Fruit] = fruitData
-//    @AppStorage("isOnboarding") var isOnboarding: Bool?
+    @State private var isShowingSettings: Bool = false
     
     // MARK: - BODY
     
@@ -27,9 +27,15 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Fruits")
-//            .onDisappear {
-//                isOnboarding = true
-//            }
+            .navigationBarItems(trailing: Button(action: {
+                isShowingSettings = true
+            }){
+                Image(systemName: "slider.horizontal.3")
+            }
+                                    .sheet(isPresented: $isShowingSettings){
+                SettingsView()
+            }
+            )
         }//: Navigation
         
     }

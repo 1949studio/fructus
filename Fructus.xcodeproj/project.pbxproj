@@ -21,6 +21,8 @@
 		0502CEAB27126D5B007C1A23 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEAA27126D5B007C1A23 /* FruitNutrientsView.swift */; };
 		0502CEAE27126D71007C1A23 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEAC27126D71007C1A23 /* FruitDetailView.swift */; };
 		0502CEAF27126D71007C1A23 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEAD27126D71007C1A23 /* OnboardingView.swift */; };
+		0502CEB127126F56007C1A23 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEB027126F56007C1A23 /* SettingsView.swift */; };
+		0502CEB3271276DF007C1A23 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502CEB2271276DF007C1A23 /* SettingsLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		0502CEAA27126D5B007C1A23 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		0502CEAC27126D71007C1A23 /* FruitDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		0502CEAD27126D71007C1A23 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0502CEB027126F56007C1A23 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = ../../../../../../SettingsView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0502CEB2271276DF007C1A23 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsLabelView.swift; path = ../../../../../../SettingsLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				0502CE672711918F007C1A23 /* ContentView.swift */,
 				0502CEAC27126D71007C1A23 /* FruitDetailView.swift */,
 				0502CEAD27126D71007C1A23 /* OnboardingView.swift */,
+				0502CEB027126F56007C1A23 /* SettingsView.swift */,
+				0502CEB2271276DF007C1A23 /* SettingsLabelView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -209,8 +215,10 @@
 				0502CE682711918F007C1A23 /* ContentView.swift in Sources */,
 				0502CEAB27126D5B007C1A23 /* FruitNutrientsView.swift in Sources */,
 				0502CE662711918F007C1A23 /* FructusApp.swift in Sources */,
+				0502CEB3271276DF007C1A23 /* SettingsLabelView.swift in Sources */,
 				0502CEA127126CE3007C1A23 /* FruitModel.swift in Sources */,
 				0502CEA927126D14007C1A23 /* FruitHeaderView.swift in Sources */,
+				0502CEB127126F56007C1A23 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
